@@ -35,3 +35,13 @@
     border-radius: 5px;
     background-color: #ffffff;
 }
+
+#slider-image-1:target ~ .image-container{
+    left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+    left: -800px;
+}
+#slider-image-3:target ~ .image-container{
+    left: -1600px;
+}
